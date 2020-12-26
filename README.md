@@ -12,3 +12,6 @@ bash script that installs owasp juice shop.
 `./install.sh`
 #### To install juice shop in a directory you choose
 `./install.sh /path/to/dir/you/want`
+
+### Starting the juice shop when it isn't running anymore
+To spin up the juice shop again just go to the directory where it is installed and type `npm start`.
