@@ -16,4 +16,7 @@ fi
 git clone https://github.com/bkimminich/juice-shop.git
 cd juice-shop
 npm install
-npm start
+
+if [ "$2" = "-r" ]; then
+    echo "starting the aplication"
+    npm start
