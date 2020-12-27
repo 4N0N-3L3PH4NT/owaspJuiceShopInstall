@@ -20,3 +20,4 @@ npm install
 if [ "$2" = "-r" ]; then
     echo "starting the aplication"
     npm start
+fi
